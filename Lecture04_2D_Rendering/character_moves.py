@@ -41,6 +41,16 @@ def move_triangle_top():
         draw_boy(x, 50 + (x - 50) * math.tan(math.radians(60)))
     pass
 
+def move_triangle_right():
+    for y in range(50, 800, 5):
+        draw_boy(400 + y / math.tan(math.radians(60)), 600 - y)
+    pass
+
+def move_triangle_left():
+    for x in range(50, 800, 5):
+        draw_boy(800 - x, 0)
+    pass
+
 def move_rectangle():
 
     print("Move Rectangle")
@@ -62,6 +72,8 @@ def move_circle():
 def move_triangle():
     print("Move Triangle")
     move_triangle_top()
+    move_triangle_right()
+    move_triangle_left()
 
     pass
 
