@@ -84,3 +84,4 @@ while True:
     pass
 
 close_canvas()
+#Drill #3 제출 - 2022182020 서상혁

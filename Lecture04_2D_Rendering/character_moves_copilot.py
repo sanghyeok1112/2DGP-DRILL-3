@@ -45,4 +45,4 @@ while True:
     move_circle()
 
 close_canvas()
-
+#Drill #3 제출 - 2022182020 서상혁
