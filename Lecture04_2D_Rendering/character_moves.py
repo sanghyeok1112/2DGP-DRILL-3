@@ -34,7 +34,6 @@ def move_left():
         draw_boy(0, 50 + y)
     pass
 
-
 def move_rectangle():
 
     print("Move Rectangle")
@@ -54,9 +53,8 @@ def move_circle():
     pass
 
 while True:
-    # move_circle()
+    move_circle()
     move_rectangle()
-    break
     pass
 
 close_canvas()
