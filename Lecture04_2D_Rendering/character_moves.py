@@ -30,6 +30,8 @@ def move_bottom():
 
 def move_left():
     print("Move Left")
+    for y in range(0, 800, 5):
+        draw_boy(0, 50 + y)
     pass
 
 
