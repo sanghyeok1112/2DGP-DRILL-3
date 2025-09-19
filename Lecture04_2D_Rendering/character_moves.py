@@ -1,3 +1,5 @@
+from math import radians
+
 from pico2d import *
 import math
 
@@ -34,6 +36,11 @@ def move_left():
         draw_boy(0, 50 + y)
     pass
 
+def move_triangle_top():
+    for x in range(50, 400, 5):
+        draw_boy(x, 50 + (x - 50) * math.tan(math.radians(60)))
+    pass
+
 def move_rectangle():
 
     print("Move Rectangle")
@@ -54,6 +61,7 @@ def move_circle():
 
 def move_triangle():
     print("Move Triangle")
+    move_triangle_top()
 
     pass
 
