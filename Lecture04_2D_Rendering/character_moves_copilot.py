@@ -43,7 +43,6 @@ def move_circle():
 while True:
     move_rectangle()
     move_circle()
-    break
 
 close_canvas()
 
